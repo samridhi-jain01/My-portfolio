@@ -1,0 +1,111 @@
+
+.logo{
+    display: flex;
+color: azure;
+ text-align: center;
+ margin-top: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color:black
+
+}
+
+.nav-link{
+    display: flex;
+    gap:20px;
+    list-style: none;
+    text-decoration: aliceblue;
+    color:azure;
+}
+.Home-content {
+    border: 10px solid goldenrod ;
+
+}
+.About-me{
+    margin: 20px;
+    padding: 30px;
+    border: 10px solid darkblue;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: bisque;
+
+
+}
+.About-me h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+table{
+    border:  solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+  column-span: "3";
+  size: 10px;
+  background-color: #52142d9c;
+  margin: 10px;
+  padding: 20px;
+}
+table th{
+    border:  solid;
+    border-collapse: collapse;
+    text-align: justify;
+
+    
+}
+table td{
+    border: 1px black #add;
+    border-radius: 10px;
+    
+}
+.skills{
+    margin:10px;
+    padding: 20px;;
+    border: 5px solid grey;
+    border-radius: 10px;
+    background-color: #52142d9c; 
+  color: white;           
+  font-family: sans-serif;
+
+}
+.skills{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKd40wX9osulNAUf73jDGdTbplDtZlTqtCNY8N3xSkQA&s=10");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+.contact-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+.contact-content h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+}
+.contact-description{
+    display: flex;
+    justify-content: center;
+
+}
+.contact{
+    border: black solid;
+    background-color: bisque;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: black;
+    color: #add;
+    margin-top: 10px;
+
+}
